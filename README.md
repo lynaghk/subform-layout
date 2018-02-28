@@ -1,9 +1,15 @@
+# Subform Layout
+
 ![Demonstration of various layouts](canvas_example.png)
 
-[Try this layout on Codepen](https://codepen.io/lynaghk/pen/Jpevwj)
+[Edit this layout on Codepen](https://codepen.io/lynaghk/pen/Jpevwj)
 
-This is a runtime version of the [Subform](https://subformapp.com) layout engine.
-It's like CSS flexbox/grid, but with fewer concepts, applied uniformly.
+[Subform](https://subformapp.com) is a visual tool for defining and exploring responsive designs.
+This is an embeddable version of its layout engine, which you might want to use if:
+
++ You want identical layouts across multiple platforms (Web, iOS, Android, etc.)
++ You need layout on a platform without any native facilities (e.g., OpenGL)
++ You're just tired of CSS
 
 The demos and engine in this repo are free to use and modify for non-commercial use only.
 For commercial licensing and support, please [contact us](mailto:subform@generalreactives.com).
@@ -12,7 +18,7 @@ This repo contains a Web Assembly version of the Subform engine.
 The core engine knows nothing about the DOM, JavaScript, etc.
 Its internal API is a byte array, and the engine can be run incrementally, "off the main thread", and does not require a garbage collector.
 
-If you'd like to use API directly, or try the engine on a different platform (iOS, Android, OpenGL, etc.), please [contact us](mailto:subform@generalreactives.com).
+If you'd like to use API directly, or try the engine on a different platform (iOS, Android, C, etc.), please [contact us](mailto:subform@generalreactives.com).
 
 
 ## Plain JS Example
