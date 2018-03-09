@@ -83,7 +83,7 @@ The developer experience is exactly the same as using inline CSS.
 ## Layout semantics
 
 Subform's layout semantics are similar to flexbox, but with fewer concepts, applied uniformly.
-See [this article](TODO) for an overview, or [this talk](https://www.deconstructconf.com/2017/kevin-lynagh-choosing-features) for the original motivation and conceptual design process.
+See [this article](https://subformapp.com/articles/why-not-flexbox/) for an overview, or [this talk](https://www.deconstructconf.com/2017/kevin-lynagh-choosing-features) for the original motivation and conceptual design process.
 
 Here's the tl;dr:
 
